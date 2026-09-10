@@ -1,4 +1,6 @@
-abstract class Aplicacion implements  Imprimible {
+import java.lang.Comparable;
+
+public abstract class Aplicacion implements  Imprimible{
     protected String nombre;
     protected String version;
     protected double pesoMB;
